@@ -102,7 +102,7 @@ Maps quotes to Uber H3 hexagonal zones for spatial demand modelling.
 - Identifies conversion-stable regions to prioritise during forecasting.
 - Outputs `quotes_hourly_h3.parquet`.
 
-Output of H3 zones assigned:
+Output of H3 zones assigned, based on a criteria of fill rate > 0 for 85% of hourly quotes geneareted within March.
 
 <img width="933" height="675" alt="image" src="https://github.com/user-attachments/assets/823ff6c9-9a67-4084-8bcf-b44bc312efc9" />
 
