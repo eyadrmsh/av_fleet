@@ -146,9 +146,6 @@ capture more revenue than a zone fixed for the whole day.
      `optimiser._expand`).
   4. *Border continuity* — ensures every dropped block remains adjacent to the
      new zone so cars can physically reach it.
-- Revenue evaluation uses **pickup-committed revenue**: a trip is credited to
-  the hour's zone that accepted it (pickup block in zone), regardless of where
-  the dropoff occurs or whether the trip spans the hour boundary.
 
 ---
 
