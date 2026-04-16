@@ -8,11 +8,12 @@ forecasting.
 ---
 
 ## Repository layout
+I also sent with an email a zip_file with output datasets, please upload them to your repo, they will be in such format:
 
 ```
 data/
   raw/
-    THA_Dataset_MarketplaceDS.csv   # raw quotes with pricing calls
+    YOUR_FILE.csv   # raw quotes with pricing calls
     greater-london-260411.osm.pbf   # OpenStreetMap road network
   processed/
     quotes_canonical.parquet        # one deduplicated record per quote
@@ -172,5 +173,5 @@ capture more revenue than a zone fixed for the whole day.
 
 | File | Source |
 |---|---|
-| `data/raw/THA_Dataset_MarketplaceDS.csv` | Provided dataset |
+| `data/raw/YOUR_FILE` | Provided dataset |
 | `data/raw/greater-london-260411.osm.pbf` | OpenStreetMap via Geofabrik |
