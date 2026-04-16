@@ -36,7 +36,7 @@ src/                                # shared Python modules
 
 ### 0. `0_quotes_eda.ipynb` — Quotes EDA & Cleaning
 
-Explores the raw quotes CSV (`THA_Dataset_MarketplaceDS.csv`) and produces the
+Explores the raw quotes CSV and produces the
 canonical quote table used by all downstream notebooks.
 
 - **Session structure** — each `quote_id` consists of repeated pricing calls;
