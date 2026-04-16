@@ -80,6 +80,10 @@ Finds the revenue-maximising connected geofence zone within the block graph.
 - Compares both approaches on cumulative trip revenue; SA consistently
   outperforms greedy by escaping local optima.
 - Produces the final London geofence (`london_geofence.geojson`).
+- More detailed maps could be fined in the notebook.
+
+<img width="1811" height="808" alt="image" src="https://github.com/user-attachments/assets/9646c4b9-1a15-4f1a-87ff-052bbc77a502" />
+
 
 ---
 
@@ -119,6 +123,12 @@ Produces an hourly, zone-level demand forecast for April 2026.
    and optimistic demand.
 
 Outputs `demand_forecast_apr2026.parquet`.
+
+Here are some of the forecats plots:
+<img width="1411" height="411" alt="image" src="https://github.com/user-attachments/assets/298af63e-38ae-45ee-b8ff-aa102f00172f" />
+<img width="1892" height="713" alt="image" src="https://github.com/user-attachments/assets/b7c1f830-79f5-4d37-8cef-2d2e472a7b16" />
+
+
 
 ---
 
