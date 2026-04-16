@@ -137,12 +137,11 @@ Here are some of the forecats plots:
 
 ### Experimental — `geofence_breathing.ipynb` — Breathing Geofence
 
-> **Status: work in progress.** The breathing geofence currently produces lower
-> revenue than the static geofence due to an error in the revenue calcualtion
+> **Status: work in progress.** The breathing geofence now produces lower
+> revenue than the static geofence becaus of the error in the revenue calcualtion
 > `compute_revenue` requires both pickup **and** dropoff blocks to
 > be inside the zone. Under this criterion the hourly geofences are unfairly
 > penalised because trips accepted within the zone often drop off outside it.
-
 
 
 Explores whether a geofence that adapts hour-by-hour to shifting demand can
