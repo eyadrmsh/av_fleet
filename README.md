@@ -57,7 +57,7 @@ Builds the block graph that all geofence algorithms operate on.
 
 - Parses the OSM PBF file and closes road segments into discrete city blocks.
 - Identifies the main connected component; excludes disconnected islands.
-- Masks out parks and water bodies so blocks reflect driveable area only.
+- Masks out parks and water bodies.
 - Outputs `filtered_main_blocks.geojson`.
 
 #### 1.2 `1.2_trip_points.ipynb` — Trip-to-Block Assignment
