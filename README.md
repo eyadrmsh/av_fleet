@@ -89,6 +89,9 @@ Finds the revenue-maximising connected geofence zone within the block graph.
 
 ### Task 2 — Demand Forecasting
 
+Notebooks 2.1 - 2.2 include features descriptions.
+Notebook 2.3 includes model evaluation and predictions output.
+
 #### 2.1 `2.1_h3_zone_assignment.ipynb` — H3 Zone Assignment
 
 Maps quotes to Uber H3 hexagonal zones for spatial demand modelling.
