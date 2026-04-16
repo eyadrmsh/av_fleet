@@ -125,12 +125,12 @@ Outputs `demand_forecast_apr2026.parquet`.
 ### Experimental — `geofence_breathing.ipynb` — Breathing Geofence
 
 > **Status: work in progress.** The breathing geofence currently produces lower
-> revenue than the static geofence due to a revenue attribution error in the
-> evaluation: `compute_revenue` requires both pickup **and** dropoff blocks to
+> revenue than the static geofence due to an error in the revenue calcualtion
+> `compute_revenue` requires both pickup **and** dropoff blocks to
 > be inside the zone. Under this criterion the hourly geofences are unfairly
 > penalised because trips accepted within the zone often drop off outside it.
-> The fix (`compute_pickup_revenue`) is implemented but the comparison needs to
-> be re-run.
+
+
 
 Explores whether a geofence that adapts hour-by-hour to shifting demand can
 capture more revenue than a zone fixed for the whole day.
